@@ -1,0 +1,25 @@
+.carre {
+  background: #F4A460;
+  height: 10rem;
+  width: 10rem;
+  border-style: dotted;
+  border-width: 0.1rem;
+
+  &::before{
+    content: '';
+    position: absolute;
+    background: #303236;
+    top: 5rem-$line-width/2;
+    height: $line-width;
+    width: 10rem;
+  }
+  
+  &::after{
+    content: '';
+    position: absolute;
+    background: #303236;
+    left: 5rem-$line-width/2;
+    height: 10rem;
+    width: $line-width;
+  }
+}

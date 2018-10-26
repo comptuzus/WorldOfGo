@@ -1,0 +1,22 @@
+// https://css-tricks.com/snippets/css/complete-guide-grid/
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(9, $length);
+  grid-template-rows: repeat(9, $length);
+}
+
+#item_1 {
+  // height: $length;
+  // width: $length;
+  grid-column: auto / span 1;
+  grid-row: auto / span 1;
+}
+
+.item_2 {
+  background: blue;
+  // height: 100;
+  // width: 100;
+  grid-column: auto / span 1;
+  grid-row: auto / span 1;
+}

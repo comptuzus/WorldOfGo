@@ -1,0 +1,26 @@
+.right {
+  position: relative;
+  background: #F4A460;
+  height: $length;
+  width: $length;
+  border-style: dotted;
+  border-width: 0.1rem;
+  
+  &:before{
+    content: '';
+    position: absolute;
+    background: #303236;
+    left: $half -$line-width/2;
+    height: $length;
+    width: $line-width;
+  }
+  &::after {
+    position: absolute;
+    content: '';
+    background: #303236;
+    top: $half -$line-width/2;
+    left: 0;
+    width: $half+$line-width/2;
+    height: $line-width; 
+  }
+}
