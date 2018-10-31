@@ -1,0 +1,13 @@
+<svg width="250" height="250" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <defs>
+  <radialGradient id="1r_0.75_0.75__A0A0A0-_000" fx="0.75" fy="0.75">
+   <stop offset="0%" stop-color="#a0a0a0"/>
+   <stop offset="100%" stop-color="#000000" stop-opacity="0.9"/>
+  </radialGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <circle cx="125" cy="125" r="125" fill="#ffffff" stroke="#000" stroke-width="0" id="svg_1"/>
+  <circle cx="125" cy="125" r="125" fill="url(#1r_0.75_0.75__A0A0A0-_000)" stroke="#000" stroke-opacity="0.3" stroke-width="1.2" id="svg_2" transform="translate(0, 3) translate(5, -6) translate(0, 250) scale(0.964, 0.972) translate(-0, -250)"/>
+ </g>
+</svg>

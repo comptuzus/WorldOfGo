@@ -3,17 +3,7 @@ import ReactDOM from "react-dom";
 import "normalize.css/normalize.css";
 import "./styles/styles.scss";
 
-// const Row = (
-//   <div className="middle" id="item_1" />
-//   <div className="middle" id="item_1" />
-//   <div className="middle" id="item_1" />
-//   <div className="middle" id="item_1" />
-//   <div className="middle" id="item_1" />
-//   <div className="middle" id="item_1" />
-//   <div className="middle" id="item_1" />
-//   <div className="middle" id="item_1" />
-//   <div className="middle" id="item_1" />
-// );
+
 
 const Intersection = () => {
   return (

@@ -1,0 +1,15 @@
+.bigPicture{
+  position: relative;
+  height: 225px;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.overlapImage {
+  position: absolute;
+  height: 170px;
+  width: 250px;
+  top: 130px;
+  left: 50px;
+}

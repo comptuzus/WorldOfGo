@@ -2,7 +2,7 @@ const path = require("path");
 
 module.exports = {
   mode: "development",
-  entry: "./src/app.js",
+  entry: "./src/playground/Game.js",
   output: {
     path: path.join(__dirname, "public"),
     filename: "bundle.js"
@@ -13,6 +13,10 @@ module.exports = {
         loader: "babel-loader",
         test: /\.js$/,
         exclude: /node_modules/
+      },
+      {
+        loader: "file-loader",
+        test: /\.(gif|svg|jpg|png|jpeg)$/,
       },
       {
         test: /\.s?css$/,
