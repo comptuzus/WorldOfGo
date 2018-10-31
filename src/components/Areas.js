@@ -1,23 +1,12 @@
 import React from "react";
-
-const squareSide = 35;
-const circleRadius = 12;
-
-const areas = [...Array(81).keys()].map((i) => {
-  let x = parseInt(i / 9) * squareSide + 10;
-  let y = i % 9 * squareSide + 10;
-  return { x, y, selected: false };
-});
+import Area from "./Area"
 
 
-const Areas = () => (
+const Areas = ({ areas, handleSelectedArea }) => (
   <map name="clikableZones">
-    {areas.map((position, i) => {
-      let coords = position.x + "," + position.y + "," + circleRadius;
-      return <area key={i} shape="circle" coords={coords} onClick={() => {
-        console.log("coucou")
-      }} />
-    })}
+    {
+      areas.map((position, i) => <Area key={i} index={i} position={position} handleSelectedArea={handleSelectedArea} display={areas[i].selected} />)
+    }
   </map>
 )
 
