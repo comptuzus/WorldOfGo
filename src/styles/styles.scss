@@ -1,14 +1,5 @@
 @import "./base/settings";
 @import "./base/base";
-@import "./stone.scss";
-@import "./board.scss";
-@import "./squares/intersection.scss";
-@import "./squares/top-left.scss";
-@import "./squares/top-right.scss";
-@import "./squares/bot-left.scss";
-@import "./squares/bot-right.scss";
-@import "./squares/left.scss";
-@import "./squares/right.scss";
-@import "./squares/top.scss";
-@import "./squares/bottom.scss";
+@import "./component/stone";
+
 
